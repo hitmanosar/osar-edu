@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+body{
+    background-color: white;
+     font-family: Cambria;
+     overflow-x: hidden;
+    
+}
+
+
+
+
+.fa{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#txtbl{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.abimg img{
+    width: 30vw;
+    height:300px;
+    
+    outline: 2px solid black;
+    border-radius: 10px;
+    transform: skewX(-5deg);
+
+}
+
+
+.friimg img{
+    width: 30vw;
+    height: auto;
+    cursor: pointer;
+    outline: 2px solid purple;
+    border-radius: 50%;
+    transition: all 1s;
+    
+}
+
+
+.friimg img:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+.friend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.read{
+    padding:7px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    width: 100px;
+    margin-top: 20px;
+    transition: background-color 1s,color 0.8s;
+}
+
+
+.read:hover{
+    background-color: black;
+    color: #00FF00;
+}
+
+
+.txt{
+     
+    text-align: justify;
+     width: 50%;
+    padding: 30px;
+    line-height: 30px;
+    margin-right: 30px;
+    
+
+}
+
+
+.fritxt{
+     text-align: justify;
+     width: 40%;
+    padding: 30px;
+    line-height: 30px;
+    margin-right: 30px;
+}
+
+
+
+.txt h1{
+    text-align: center;
+    
+}
+
+
+
+
+
+.txt p{
+    font-size: 19px;
+
+}
+
+
+
+.fritxt h1{
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+.fritxt p{
+    font-size: 19px;
+
+}
+
+
+ .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+
+
+
+
+.clients{
+    width:99.8%;
+    height: 100px;  
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:white;
+
+}
+
+
+
+.cimg{
+    width: 11.5vw;
+     
+   
+}
+
+
+.abdiv{
+    width: 100%;
+    height: 300px;
+    background: url('../photo/slider2.jpg');
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+
+
+
+
+.abdivtxt{
+      width: 100%;
+      height: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+}
+
+
+.abdp span{
+    margin: 0px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
+    font-size:  20px;
+
+}
+
+
+.abdp span:hover{
+    color: #00BFFF;
+    opacity: 2;
+
+}
+
+
+.toabout::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    transform: translate(-20px,10px);
+}
+
+    
+    .txt2{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+    }
+
+
+    .tohome{
+        opacity: 0.6;
+    }
+
+    
+
+
+    .abdh h3{
+        font-size: 35px;
+    }
+    
+
+    .certificate{
+        width: 100%;
+        height: 300px;
+        
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    .certibox img{
+        width: 250px;
+        height: 200px;
+        margin: 0px 20px;
+        border-radius: 10px;
+       outline: 2px solid black;
+        filter: drop-shadow(5px 5px 10px black);
+        transition: all 0.5s;
+
+    }
+
+
+
+    .certibox img:hover{
+       transform: translateY(-10px);
+    }
+    
+
+
+
+
+
+
+    
+
+
+    @media screen and (max-width: 900px){
+         
+
+
+         .container2{
+            flex-direction: column;
+          }
+
+
+
+        .txt{
+            width: 100%;
+        }
+
+
+        .abimg img{
+            width: 50vw;
+            height: 30vh;
+        }
+
+
+        .friend{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+       
+
+        .certificate{
+            margin-top: 50px;
+            height: auto;
+        }
+
+
+        .certibox{
+            display: flex;
+            flex-direction: column;
+          
+        }
+
+
+
+        .certibox img{
+            margin: 30px auto;
+             width: 350px;
+            height: 300px;
+        }
+
+
+        .friimg img{
+            width: 350px;
+            height: auto;
+        }
+
+
+
+    .fritxt {
+        width: 60%;
+        text-align: center;
+    }
+
+
+
+    .sect{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+       
+    }
+
+
+
+@media screen and (max-width: 550px){
+
+    .abimg img{
+         
+          width: 80vw;
+         height: auto;
+    }
+
+
+     .fritxt {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        padding: 0px auto;
+
+    }
+
+
+
+
+    .txt{
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 0px auto;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:  400px){
+    .sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+

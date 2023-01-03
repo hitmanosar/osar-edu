@@ -1,0 +1,97 @@
+body {
+    font-family: Cambria;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+
+/* Carousel */
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.4;
+}
+
+.carousel-caption {
+    margin-bottom: 120px;
+}
+
+
+
+
+.carousel-caption button {
+    width: 130px;
+    height: 40px;
+    background: orange;
+    border-radius: 2px;
+}
+
+#btns {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+#btns:hover {
+    background-color: black;
+}
+
+.carousel-caption button:hover {
+    background-color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    margin-top: 190px;
+    margin-left: 30px;
+}
+
+.carousel-control-next {
+    background-color: black;
+    margin-right: 30px;
+}
+
+.carousel-indicators .active {
+    background-color: orange;
+}
+
+
+/* carousel */
+
+
+/* Nav Bar */
+
+#navbar ul li a:hover {
+    color: orange;
+}
+
+.main a,
+.font,
+a {
+    color: #F7941D;
+}
+
+.btn.focus,
+.btn:focus {
+    border: none;
+    color: white;
+}
+
+
+/* nav bar end */
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    #btn {
+        width: 60px;
+    }
+}

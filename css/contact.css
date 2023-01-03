@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.conatact{
+    height: 100%;
+    /* background-color:orange; */
+    color: white;
+}
+.contact_header{
+    background-image: url(../images/education.jpg);
+    background-position:  center;
+    background-size: cover;
+    min-height: 300px;
+    text-align: center;
+    position: relative;
+   
+}
+
+.contact_img_letter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* letter-spacing: 1px;
+    word-spacing: 2px; */
+   
+}
+.contact_body{
+    color: black;
+    max-width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+}
+
+.contact_body p{
+
+    opacity: 0.5;
+    
+}
+
+.contact_information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;
+    max-width: 1000px;
+    height: 50Vh;
+    margin: 0 auto;
+    align-items: center;
+    
+    /* background-color: red; */
+}
+
+.contact_information div{
+   width: 30%;
+    height: 60%;
+    border: 2px solid orange;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px 25px 0;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.map{
+    display: none;
+    
+}
+.contact_icon{
+    font-size: 30px;
+    color: orange;
+}
+
+
+
+     /* start of contact from  */
+
+
+.Contact_form{
+        padding: 40px 20px 0px 20px;
+        max-width: 700px;
+        height: 400px;
+        margin: 0 auto ;
+        border-radius: 10px;
+        background-color: rgba(41, 32, 15, 0.589);
+        
+}
+.contact_child{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    /* background-color:blue;      */
+    
+}
+
+.name_message{
+    /* background-color: red; */
+    width: 100%;
+}
+.name input{
+    width: 49%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.first_name{
+    margin-right: 3px;
+}
+.email_tel input{
+    width: 49%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.email{
+    margin-right: 3px;
+}
+.message{
+    width: 99%;
+    /* background-color: #fff; */
+    margin-left: 5px;
+}
+.message_inbox{
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+    border-radius: 8px;
+    resize: none;
+}
+
+.contact_btn{
+    background-color:orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px white;
+    text-transform: uppercase;
+}
+
+    /* hover section  */
+    .contact_btn:hover{
+    background-color: rgba(255, 0, 0, 0.619);
+        
+    }
+
+    
+
+@media (max-width:680px) {
+    
+    .contact_information{
+        height: 80vh;
+        flex-direction:column;
+    }
+    .contact_information div{
+        width: 80%;
+        height: 30%;
+        padding-top: 10px;
+    }
+    .Contact_form{
+        height: 55vh;
+        padding-top: 45px;
+    }
+    .name input{
+        width: 90%;
+    }
+    .email_tel input{
+        width: 90%;
+    }
+    .message_inbox{
+        height: auto;
+        width: 90%;
+    }
+    .contact_btn{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .Contact_form{
+        height: auto;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    
+
+}
+
+body{
+    overflow-x: hidden;
+
+   
+}
+
+ .la1{
+    
+    background: #2e3192;
+    color: white;
+} 
+
+
+.la1 li{
+    font-size: 2rem;
+}
+
+.la1 p{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+

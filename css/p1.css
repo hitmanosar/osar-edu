@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.we_p{
+    font-size: 1.2rem;
+    color: #59616d;
+}
+
+
+.our a{
+    font-size: 2rem;
+    color: #59616d;
+    
+    
+}
+
+.our a:hover{
+    text-decoration: none;
+    user-select: none;
+}
+
+
+.our_f{
+    color: #1f4271;
+   
+}
+
+
+.our li i{
+    font-size: 2rem;
+}
+
+
+.teacher{
+    background: #f8f8f8;
+    margin: 10px auto;
+    padding: 20px;
+}
